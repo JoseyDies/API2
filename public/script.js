@@ -38,6 +38,7 @@ form.addEventListener('submit', function (e){  //"a function that gets run every
     fetch(queryFull)
     .then(res => res.json())
     .then((data) => {
+        console.log(data);
         let date = data["date"];
         let explanation = data["explanation"];
         let hdurl = data["hdurl"];
