@@ -1,5 +1,7 @@
 body {
     background-color:#1c1c4a;
+    font-family: 'Space Mono', monospace;
+   
 }
 
 .scene i {
@@ -28,6 +30,7 @@ body {
 
 h1 {
     color: white;
+   
 }
 
 h3 {
@@ -50,7 +53,7 @@ color: white;
 color: white;
 }
 
-.form-label {
+#form-outline {
 color: white;
 }
 
