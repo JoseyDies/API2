@@ -1,0 +1,59 @@
+body {
+    background-color:#1c1c4a;
+}
+
+.scene i {
+    position: absolute;
+    background: #ffff;
+    border-radius: 50%;
+    animation: animate linear infinite;
+}
+
+@keyframes animate 
+{
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+        }
+    10%, 90%
+    {
+        opacity: 1;
+    }
+    100% 
+    {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+#wrapper-title {
+color: white;
+}
+
+#wrapper-date {
+color: white;
+}
+
+#wrapper-explanation {
+color: white;
+}
+
+#formControlDefault {
+color: white;
+}
+
+.form-label {
+color: white;
+}
+
+#submitDate {
+    color: white;
+}

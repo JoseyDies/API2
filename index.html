@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>APIAPOD</title>
+    <!-- MDB icon -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<!-- 
+    grab id of that input ...call in js, and get value and append that to url  -->
+
+    <!-- Start your project here-->
+  <div class ="scene"></div>
+
+   <div class="h-100 d-flex flex-column justify-content-between align-items-center">
+    <div class=""><h1>View NASA's Astronomy Picture of the Day</h1></div>
+    <br>
+    <div class=""><h3>Choose a date and view NASA's APOD, dating back to June 16, 1995.</h1></div>
+    <br>
+    <div class="">
+    <form id="submitDate">
+      <div class="form-outline">
+        <input type="text" id="formControlDefault" class="form-control" />
+        <label class="form-label" for="formControlDefault">Enter a date (YYYY-MM-DD)</label>
+      </div>
+      <br>
+     <button type="submit" id="button" class="btn btn-dark btn-rounded">Submit</button>
+    </form>
+  </div>
+</div>
+<br>
+<br>
+    <div class="container">
+
+      <div class="row">
+        
+          <div class="col-md-8 mb-4 mb-md-0">
+
+            <div class="bg-image hover-overlay hover-zoom hover-shadow ripple">
+  <img 
+  id="wrapper-url"
+   src="" class="w-100" />
+  <a id="wrapper-hdurl" href="#!" target="_blank">
+    <div class="mask" style="background-color: rgba(57, 192, 237, 0.2)"></div>
+  </a>
+</div>
+
+
+        </div>
+
+        <div class="col-md-4 mb-4 mb-md-0">
+
+          <h5 id="wrapper-title"></h5>
+          <p id="wrapper-date"></p>
+          <p id="wrapper-explanation"></p>
+          
+          
+
+        </div>
+
+      </div>
+
+    </div>
+   
+ 
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
